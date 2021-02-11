@@ -1,0 +1,127 @@
+//
+.buttonses{
+    ul{
+        li{
+            display: inline-block;
+            vertical-align: top;
+            span ,a{
+                display: block;
+                border-radius: 10px;
+                font-weight: 500;
+                font-size: 14px;
+                color: #fffcfc;
+                cursor: pointer;
+                transition: all .4s;
+                height: 39px;
+                padding: 0 28px;
+                line-height: 39px;
+                background: #FF81AE;
+            }
+        }
+    }
+}
+.pointer{
+    cursor: pointer!important;
+}
+#login-page .form span.left{
+    z-index: 99999;
+}
+#insert_password{
+    padding: 0 70px!important;
+}
+.uc{
+    font-size: 48px;
+    line-height: 28px;
+    color: #4B4B4B;
+    text-align: center;
+    width: 110px;
+    font-weight: 500;
+    background: none;
+    display: inline-block;
+}
+#popup{
+    display: none;
+
+}
+
+
+.link-container a {
+    display: inline-block;
+    font-size: 24px;
+    transition: all .4s;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.secand{
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+}
+#first{
+    width: 100%;
+    overflow: hidden;
+    direction: ltr!important;
+
+}
+#first >div{
+    white-space: nowrap;
+
+
+}
+#first >div >div{
+    display: inline-block!important;
+    width: 100vw!important;
+    direction: rtl;
+    vertical-align: top;
+
+}
+#first >div >div * {
+    white-space: normal;
+}
+.dis_none{
+    display: none!important;
+}
+.register_prve_page{
+    z-index: 222;
+}
+
+#login-page .form.page1 .input-container{
+    margin-bottom: 50px!important;
+}
+.slid .left-side .button span{
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px #6DD98C;
+    border-radius: 63px;
+    height: 69px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 69px;
+    padding: 0 72px;
+    color: #455A64;
+    cursor: pointer;
+    transition: all .4s;
+}
+.slid .left-side .button a{
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px #6DD98C;
+    border-radius: 63px;
+    height: 69px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 69px;
+    padding: 0 72px;
+    color: #455A64;
+    cursor: pointer;
+    transition: all .4s;
+}
+.slid .left-side .button a:hover {
+    color: #000;
+}
+.slid .left-side .button span:hover {
+    color: #000;
+}

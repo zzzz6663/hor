@@ -1,0 +1,349 @@
+@import "variable";
+body {
+  color: @text;
+  direction: rtl;
+  font-family: IRANSans;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-weight: 400;
+  height: 100%;
+}
+html{
+  height: 100%;
+}
+a.black {
+  color: #000;
+}
+a {
+  color: @text;
+
+  text-decoration: none;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  &:hover {
+    color: @title;
+  }
+    
+ 
+}
+a.black:hover,
+a:hover {
+  color: #c70000;
+}
+
+label {
+  font-family: IRANSans;
+}
+textarea, input, button {
+  border: none;
+  line-height: 30px;
+  background: #fff;
+  padding: 0 8px;
+  color: @input;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  outline: none;
+}
+
+textarea {
+  line-height: 20px;
+  padding: 15px 8px;
+}
+
+button {
+  cursor: pointer;
+  height: 35px;
+  line-height: 35px;
+  float: right;
+  font-size: 12px;
+  color: #fff;
+  background: #55b650;
+  &:hover {
+    background: darken(#55b650, 10%);
+  }
+}
+p {
+
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 26px;
+  text-align: justify;
+  color: @text;
+  font-weight: 300;
+
+}
+
+.input {
+  overflow: hidden;
+  margin-bottom: 11px;
+  label {
+    line-height: 30px;
+    float: right;
+    display: block;
+    width: 90px;
+  }
+  button {
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px;
+  color: @title;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+label {
+  color: #000;
+
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+
+}
+
+img {
+  height: auto;
+  display: block;
+  max-width: 100%;
+
+}
+
+select, textarea, button,
+input {
+  font-size: 13px;
+  font-family: IRANSans !important;
+  font-weight: 300;
+}
+
+option {
+
+  font-family: IRANSans;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url('../font/eot/IRANSansWeb(FaNum)_Black.eot');
+  src: url('../font/eot/IRANSansWeb(FaNum)_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+     url('../font/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+     url('../font/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+     url('../font/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../font/eot/IRANSansWeb(FaNum)_Bold.eot');
+  src: url('../font/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+     url('../font/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+     url('../font/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+     url('../font/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../font/eot/IRANSansWeb(FaNum)_Medium.eot');
+  src: url('../font/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+     url('../font/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+     url('../font/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+     url('../font/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../font/eot/IRANSansWeb(FaNum)_Light.eot');
+  src: url('../font/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+     url('../font/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+     url('../font/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+     url('../font/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url('../font/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+  src: url('../font/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+     url('../font/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+     url('../font/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+     url('../font/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../font/eot/IRANSansWeb(FaNum).eot');
+  src: url('../font/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+     url('../font/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+     url('../font/woff/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+     url('../font/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 13px;
+
+}
+
+::-webkit-input-placeholder {
+  color: #8e8c8c;
+}
+
+::-moz-placeholder {
+  color: #8e8c8c;
+}
+
+:-ms-input-placeholder {
+  color: #8e8c8c;
+}
+
+:-o-input-placeholder {
+  color: #8e8c8c;
+}
+
+.input-container{
+  label{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 27px;
+
+  }
+
+    ::-webkit-input-placeholder {
+      color: #D9D9D9;
+    font-size: 24px;
+
+    }
+
+    ::-moz-placeholder {
+      color: #D9D9D9;
+    font-size: 24px;
+
+    }
+
+    :-ms-input-placeholder {
+      color: #D9D9D9;
+    font-size: 24px;
+
+    }
+
+    :-o-input-placeholder {
+      color: #D9D9D9;
+    font-size: 24px;
+
+    }
+  input{
+    background: #FFFFFF;
+    border: 1px solid #1AC0C6;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 15px #9BDBF3;
+    border-radius: 63px;
+    width: 417px;
+    height: 69px;
+    max-width: 100%;
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 69px;
+    text-align: center;
+
+  }
+  @media @media1100{
+    label{
+
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 18px;
+
+    }
+    input{
+      height: 47px;
+      line-height: 47px;
+      box-shadow: none;
+    }
+  }
+}
+.button-container{
+  text-align: center;
+  span{
+    min-width: 417px;
+    padding: 0 42px;
+    height: 69px;
+    line-height: 69px;
+    display: inline-block;
+    background: #1AC0C6;
+    box-shadow: 0px 4px 15px rgba(26, 192, 198, 0.6);
+    border-radius: 63px;
+    box-sizing: border-box;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s;
+    &:hover{
+      background: darken(#1AC0C6, 10%);
+    }
+  }
+  @media @media1100{
+    span{
+    min-width: inherit;
+    height: 47px;
+    line-height: 47px;
+    font-size: 18px;
+    }
+  }
+}
+.link-container{
+text-align: center;
+  span{
+    display: inline-block;
+    font-size: 24px;
+    transition: all .4s;
+    line-height: 70px;
+    cursor: pointer;
+    &:hover{
+      color: #1AC0C6;
+    }
+  } 
+   @media @media1100{
+    span{
+      font-size: 14px;
+      color: #1AC0C6;
+    line-height: 40px;
+      &:hover{
+        color: darken(#1AC0C6, 10%);
+      }
+    }
+   }
+}
+

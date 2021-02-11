@@ -1,0 +1,32 @@
+@media screen and (max-width: 1300px) {
+  #mainmenu {
+    display: none;
+  }
+  a.mmen {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0;
+    display: block;
+    position: relative;
+  }
+  a.mmen span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #263238;
+  }
+  a.mmen span.num1 {
+    top: 5px;
+  }
+  a.mmen span.num2 {
+    top: 15px;
+  }
+  a.mmen span.num3 {
+    top: 25px;
+  }
+  a.mmen span.num4 {
+    top: 35px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
